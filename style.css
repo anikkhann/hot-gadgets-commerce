@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{   
+    margin-bottom: 90px;  /*for  full page*/
+}
+
+.carousel-item{
+    padding: 10px 30px;
+}
+
+.buy-button-now{
+    background-color: black;
+    color: white;                /*for button design */
+   border: 0;
+   border-radius: 5px;
+   padding: 5px 10px;
+   cursor: pointer;
+}
+
+.card{  /*design for  smartphone and laptop card start*/
+
+    border: 0;
+    box-shadow: 5px 5px 10px lightgray;       
+    border-radius: 15px;
+}
+
+.cat-1, .cat-2, .cat-3{
+    text-align: center;
+} 
+
+.cat-1 h5{
+    font-weight: bold;
+}
+.cat-1 p{
+    color: gray;
+    
+}
+
+.cat-2 h5{
+    font-weight: bold;
+}
+.cat-2 p{
+    color: gray;
+    
+}
+
+.cat-3 h5{
+    font-weight: bold;
+}
+.cat-3 p{
+    color: gray;
+    
+}  /*design for  smartphone and laptop card end*/
+
+
+/*categori design start*/
+.Categories h3{
+    font-weight: bold;
+}
+.Categories-1 h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.cat-7 img{
+    width: 600px;
+   }
+
+.cat-4 img{    
+    width: 100px;
+    margin-left: 20px;
+    
+
+}
+.cat-4 h6{
+    margin-top: 170px;
+    margin-right: 5%;
+    
+}
+
+.cat-5 img{
+    margin-top: 65px;
+    width: 100px;
+    
+
+    
+}
+
+.cat-6 img{
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 85px;
+    
+}
+/*categori design end*/
+
