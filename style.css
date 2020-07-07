@@ -5,9 +5,33 @@ body{
 
 
 .container{   
-    margin-bottom: 90px;  /*for  full page*/
+    margin-bottom: 90px;  /*for  full page container design*/
 }
 
+ /*Corousel design start*/
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, orange 50%, yellow 100%);
+    width: 20px;
+   
+  
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+
+.carousel-indicators li {
+        background-color: gray;
+        width: 15px;
+        height: 10px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        display: inline-block;
+}
 .carousel-item{
     padding: 10px 30px;
 }
@@ -20,8 +44,13 @@ body{
    padding: 5px 10px;
    cursor: pointer;
 }
+ /*carousel design end*/
+/*design for  smartphone and laptop card start*/
 
-.card{  /*design for  smartphone and laptop card start*/
+.orange-bg{
+    color: orange;
+}
+ .card{  
 
     border: 0;
     box-shadow: 5px 5px 10px lightgray;       
@@ -54,16 +83,28 @@ body{
 .cat-3 p{
     color: gray;
     
-}  /*design for  smartphone and laptop card end*/
+} 
 
+
+
+.Categories h3{
+    font-weight: bold;  
+}
+
+ /*design for  smartphone and laptop card end*/
 
 /*categori design start*/
-.Categories h3{
-    font-weight: bold;
-}
 .Categories-1 h3{
     font-weight: bold;
     text-align: center;
+}
+
+.catagory-line{
+    height: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, yellow 50%, orange 100%);;
+    margin: auto;
 }
 
 .cat-7 img{
@@ -71,29 +112,33 @@ body{
    }
 
 .cat-4 img{    
-    width: 100px;
-    margin-left: 20px;
+    width: 150px;
+    
+    margin-left: 40px;
+    
+    box-shadow: 10px  10px 30px lightgray;
+    padding: 30px 30px;
+    border-radius: 10px;
     
 
-}
-.cat-4 h6{
-    margin-top: 170px;
-    margin-right: 5%;
-    
 }
 
 .cat-5 img{
     margin-top: 65px;
-    width: 100px;
-    
-
-    
+    width: 150px;
+    box-shadow: 10px  10px 30px lightgray;
+    padding: 30px 30px;
+    border-radius: 10px;
+        
 }
 
 .cat-6 img{
     margin-top: 100px;
-    margin-right: 20px;
-    width: 85px;
+    margin-right: 30px;
+    width: 150px;
+    box-shadow: 10px  10px 30px lightgray;
+    padding: 30px 30px;
+    border-radius: 10px;
     
 }
 /*categori design end*/
